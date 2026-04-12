@@ -1,1672 +1,1602 @@
 [
   {
     "name": "0xAlex",
-    "company": "",
-    "stage": "Burton Stage"
+    "company": "Kleros",
+    "stage": "Burton"
   },
   {
     "name": "0xPenryn",
+    "company": "World (Worldcoin",
+    "stage": "Kelly"
+  },
+  {
+    "name": "0xSybil",
     "company": "",
-    "stage": "Kelly Stage"
+    "stage": "Monroe"
   },
   {
     "name": "1sla.eth",
     "company": "",
-    "stage": "Taylor Stage"
+    "stage": "Taylor"
   },
   {
-    "name": "Adrian Brink Privacy and self",
+    "name": "Agaperste",
     "company": "",
-    "stage": "Hepburn Stage"
+    "stage": "Kelly"
+  },
+  {
+    "name": "AKAKI MAMAGEISHVILI",
+    "company": "Offchain Labs",
+    "stage": "Hepburn"
   },
   {
     "name": "Alan Li",
     "company": "",
-    "stage": "Burton Stage"
+    "stage": "Burton"
+  },
+  {
+    "name": "Albicodes",
+    "company": "",
+    "stage": "Redford"
   },
   {
     "name": "Alec Novella",
     "company": "",
-    "stage": "Burton Stage"
+    "stage": "Burton"
   },
   {
     "name": "Alejandro Ranchal",
     "company": "",
-    "stage": "Hepburn Stage"
+    "stage": "Hepburn"
   },
   {
     "name": "Alejandro Ranchal-Pedrosa",
     "company": "",
-    "stage": "Chaplin Stage"
+    "stage": "Chaplin"
   },
   {
     "name": "Alex Cutler",
-    "company": "",
-    "stage": "Redford Stage"
+    "company": "Aerodrome",
+    "stage": "Redford"
   },
   {
     "name": "Alexander",
     "company": "Miden",
-    "stage": "Taylor Stage"
+    "stage": "Taylor"
   },
   {
     "name": "Alexander Müller",
     "company": "",
-    "stage": "Burton Stage"
+    "stage": "Burton"
   },
   {
     "name": "Alice",
     "company": "",
-    "stage": "Burton Stage"
+    "stage": "Burton"
   },
   {
     "name": "AliceAndBob",
     "company": "",
-    "stage": "Burton Stage"
+    "stage": "Burton"
   },
   {
     "name": "Alina Tielnova",
     "company": "",
-    "stage": "Kelly Stage"
+    "stage": "Kelly"
   },
   {
     "name": "Ambre Soubiran",
-    "company": "",
-    "stage": "Monroe Stage"
+    "company": "Kaiko",
+    "stage": "Monroe"
   },
   {
     "name": "Ambroise Helaine",
     "company": "Bybit",
-    "stage": "Hepburn Stage"
+    "stage": "Hepburn"
   },
   {
     "name": "Ami Nagata",
     "company": "",
-    "stage": "Burton Stage"
+    "stage": "Burton"
   },
   {
     "name": "Amit Chaudhary",
     "company": "",
-    "stage": "Chaplin Stage"
+    "stage": "Chaplin"
   },
   {
     "name": "Amxx",
     "company": "",
-    "stage": "Kelly Stage"
+    "stage": "Kelly"
   },
   {
     "name": "Andrea Canidio",
-    "company": "",
-    "stage": "Hepburn Stage"
+    "company": "CoW Protocol",
+    "stage": "Hepburn"
   },
   {
     "name": "Andreas Melhede",
-    "company": "",
-    "stage": "Burton Stage"
+    "company": "Elata Protocol",
+    "stage": "Burton"
   },
   {
     "name": "Andres Junge",
     "company": "",
-    "stage": "Redford Stage"
+    "stage": "Redford"
   },
   {
     "name": "Andrew O'Neill",
-    "company": "",
-    "stage": "Monroe Stage"
+    "company": "S&P Global",
+    "stage": "Monroe"
   },
   {
     "name": "Andrey Ivasko",
     "company": "",
-    "stage": "Taylor Stage"
+    "stage": "Taylor"
   },
   {
     "name": "Andrii Bondar",
     "company": "Matter Labs (zkSync",
-    "stage": "Hepburn Stage"
+    "stage": "Hepburn"
   },
   {
     "name": "Andy",
     "company": "The Rollup",
-    "stage": "Chaplin Stage"
+    "stage": "Chaplin"
   },
   {
     "name": "Andy M. Lee",
     "company": "",
-    "stage": "Taylor Stage"
+    "stage": "Taylor"
   },
   {
     "name": "Angela Kreitenweis",
     "company": "Token Engineering Academy",
-    "stage": "Chaplin Stage"
+    "stage": "Chaplin"
   },
   {
     "name": "Anne",
     "company": "",
-    "stage": "Kelly Stage"
+    "stage": "Kelly"
   },
   {
     "name": "Anthony Caravello",
     "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Anthurine Introducing web3://",
-    "company": "",
-    "stage": "Hepburn Stage"
+    "stage": "Redford"
   },
   {
     "name": "Antonio Sanso",
-    "company": "",
-    "stage": "Kelly Stage"
+    "company": "Ethereum Foundation",
+    "stage": "Kelly"
   },
   {
     "name": "Anya",
     "company": "",
-    "stage": "Burton Stage"
+    "stage": "Burton"
   },
   {
     "name": "Ariutokintumi",
     "company": "",
-    "stage": "Kelly Stage"
+    "stage": "Kelly"
   },
   {
     "name": "Arman Sarhaddar",
     "company": "",
-    "stage": "Burton Stage"
+    "stage": "Burton"
   },
   {
     "name": "Artem Sinyakin",
     "company": "",
-    "stage": "Redford Stage"
+    "stage": "Redford"
   },
   {
     "name": "Arthur Breitman",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Asi",
-    "company": "",
-    "stage": "Hepburn Stage"
+    "company": "Tezos",
+    "stage": "Redford"
   },
   {
     "name": "Barnabé Monnot",
-    "company": "",
-    "stage": "Monroe Stage"
+    "company": "Ethereum Foundation",
+    "stage": "Monroe"
   },
   {
     "name": "Belma Gutlic",
     "company": "",
-    "stage": "Kelly Stage"
+    "stage": "Kelly"
   },
   {
     "name": "Bhaji Illuminati",
     "company": "Centrifuge",
-    "stage": "Monroe Stage"
+    "stage": "Monroe"
   },
   {
     "name": "Bianca Buzea",
     "company": "",
-    "stage": "Taylor Stage"
+    "stage": "Taylor"
   },
   {
     "name": "Binji",
     "company": "",
-    "stage": "Redford Stage"
+    "stage": "Redford"
+  },
+  {
+    "name": "BlockShane",
+    "company": "Sigma Prime",
+    "stage": "Hepburn"
   },
   {
     "name": "Bob Summerwill",
-    "company": "",
-    "stage": "Taylor Stage"
+    "company": "ETC Cooperative",
+    "stage": "Taylor"
   },
   {
     "name": "Brenda Loya",
     "company": "Tellor",
-    "stage": "Hepburn Stage"
+    "stage": "Hepburn"
+  },
+  {
+    "name": "Btchip",
+    "company": "Ledger",
+    "stage": "Redford"
   },
   {
     "name": "Cactus Raazi",
     "company": "",
-    "stage": "Redford Stage"
+    "stage": "Redford"
   },
   {
     "name": "Charles Cooper",
-    "company": "",
-    "stage": "Taylor Stage"
+    "company": "Vyper",
+    "stage": "Taylor"
+  },
+  {
+    "name": "Charles D'haussy",
+    "company": "dYdX Foundation",
+    "stage": "Redford"
   },
   {
     "name": "Charles Guillemet",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Charles d'Haussy",
-    "company": "",
-    "stage": "Redford Stage"
+    "company": "Ledger",
+    "stage": "Monroe"
   },
   {
     "name": "Chase Manning",
     "company": "",
-    "stage": "Burton Stage"
+    "stage": "Burton"
   },
   {
-    "name": "Chow",
+    "name": "Cheeky-gorilla",
     "company": "",
-    "stage": "Monroe Stage"
+    "stage": "Redford"
   },
   {
     "name": "Chris McCabe",
     "company": "Session",
-    "stage": "Hepburn Stage"
+    "stage": "Hepburn"
   },
   {
     "name": "Christine Moy",
     "company": "",
-    "stage": "Monroe Stage"
+    "stage": "Monroe"
   },
   {
     "name": "Christoph Schlegel",
     "company": "Flashbots",
-    "stage": "Monroe Stage"
+    "stage": "Monroe"
   },
   {
     "name": "Chunda McCain",
     "company": "",
-    "stage": "Taylor Stage"
+    "stage": "Taylor"
   },
   {
     "name": "Claire Balva",
     "company": "",
-    "stage": "Kelly Stage"
+    "stage": "Kelly"
   },
   {
     "name": "Clement Lesaege",
-    "company": "",
-    "stage": "Kelly Stage"
+    "company": "Kleros",
+    "stage": "Kelly"
   },
   {
     "name": "Conor",
-    "company": "",
-    "stage": "Burton Stage"
+    "company": "Coinbase",
+    "stage": "Burton"
   },
   {
     "name": "Constantin Dubus",
     "company": "",
-    "stage": "Monroe Stage"
+    "stage": "Monroe"
   },
   {
     "name": "Corinne Powers",
     "company": "",
-    "stage": "Taylor Stage"
+    "stage": "Taylor"
   },
   {
     "name": "Costanza",
     "company": "",
-    "stage": "Kelly Stage"
+    "stage": "Kelly"
   },
   {
-    "name": "Crypto Agility Framework for Ethereum",
-    "company": "CAFE",
-    "stage": "Burton Stage"
+    "name": "CPerezz",
+    "company": "Ethereum Foundation",
+    "stage": "Hepburn"
   },
   {
     "name": "Cyrille Brière",
     "company": "f(x",
-    "stage": "Hepburn Stage"
+    "stage": "Hepburn"
   },
   {
-    "name": "DMH",
+    "name": "Daiki Endo",
     "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Daiki  Endo",
-    "company": "",
-    "stage": "Redford Stage"
+    "stage": "Redford"
   },
   {
     "name": "Dan Ligocky",
     "company": "",
-    "stage": "Redford Stage"
+    "stage": "Redford"
   },
   {
     "name": "Dana Condrea",
     "company": "",
-    "stage": "Redford Stage"
+    "stage": "Redford"
   },
   {
     "name": "Daniel Elkins",
     "company": "DGRS Labs",
-    "stage": "Burton Stage"
+    "stage": "Burton"
   },
   {
     "name": "Daniel Von Fange",
     "company": "",
-    "stage": "Kelly Stage"
+    "stage": "Kelly"
   },
   {
-    "name": "Darius Moukhtarzade Why Token Launches Fail",
-    "company": "",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "David  Leonardi",
-    "company": "",
-    "stage": "Kelly Stage"
+    "name": "David Leonardi",
+    "company": "Polygon",
+    "stage": "Kelly"
   },
   {
     "name": "David Mühlbacher",
     "company": "Stereum Services FlexCo",
-    "stage": "Hepburn Stage"
+    "stage": "Hepburn"
   },
   {
     "name": "David Pearce",
     "company": "",
-    "stage": "Burton Stage"
+    "stage": "Burton"
   },
   {
     "name": "Dayan Brunie",
     "company": "Consensys",
-    "stage": "Burton Stage"
+    "stage": "Burton"
   },
   {
     "name": "Deca",
     "company": "",
-    "stage": "Kelly Stage"
+    "stage": "Kelly"
   },
   {
     "name": "Declan Fox",
     "company": "Linea",
-    "stage": "Hepburn Stage"
+    "stage": "Hepburn"
+  },
+  {
+    "name": "Dee_centralized",
+    "company": "",
+    "stage": "Redford"
+  },
+  {
+    "name": "Definikola",
+    "company": "",
+    "stage": "Burton"
   },
   {
     "name": "Denitza Valjavec",
     "company": "",
-    "stage": "Taylor Stage"
+    "stage": "Taylor"
   },
   {
     "name": "Derek Sorensen",
     "company": "Ethereum Foundation",
-    "stage": "Hepburn Stage"
+    "stage": "Hepburn"
   },
   {
     "name": "Devansh Mehta",
     "company": "",
-    "stage": "Kelly Stage"
+    "stage": "Kelly"
   },
   {
     "name": "Devon Martens",
     "company": "",
-    "stage": "Burton Stage"
+    "stage": "Burton"
   },
   {
     "name": "Dima Gusakov",
     "company": "Lido",
-    "stage": "Hepburn Stage"
+    "stage": "Hepburn"
+  },
+  {
+    "name": "DMH",
+    "company": "",
+    "stage": "Monroe"
   },
   {
     "name": "Doo Wan Nam",
-    "company": "",
-    "stage": "Kelly Stage"
+    "company": "StableDAO",
+    "stage": "Kelly"
   },
   {
     "name": "Drake Breeding",
-    "company": "",
-    "stage": "Monroe Stage"
+    "company": "Arc",
+    "stage": "Monroe"
   },
   {
     "name": "Dyma Budorin",
     "company": "Hacken",
-    "stage": "Hepburn Stage"
+    "stage": "Hepburn"
   },
   {
     "name": "E.G.",
     "company": "",
-    "stage": "Burton Stage"
+    "stage": "Burton"
   },
   {
     "name": "Ece Orsel",
     "company": "",
-    "stage": "Taylor Stage"
+    "stage": "Taylor"
   },
   {
     "name": "Ed Felten",
-    "company": "",
-    "stage": "Monroe Stage"
+    "company": "Offchain Labs",
+    "stage": "Monroe"
   },
   {
     "name": "Ekleen Kaur",
     "company": "Amazon Web Services",
-    "stage": "Redford Stage"
+    "stage": "Redford"
   },
   {
     "name": "Ellie Davidson",
     "company": "",
-    "stage": "Monroe Stage"
+    "stage": "Monroe"
   },
   {
     "name": "Emilio Frangella",
     "company": "Aave Labs",
-    "stage": "Chaplin Stage"
+    "stage": "Chaplin"
   },
   {
     "name": "Emma Landriault",
     "company": "J.P. Morgan Chase",
-    "stage": "Chaplin Stage"
+    "stage": "Chaplin"
   },
   {
     "name": "Eric Zhong",
     "company": "",
-    "stage": "Taylor Stage"
+    "stage": "Taylor"
   },
   {
     "name": "Ernesto García",
-    "company": "",
-    "stage": "Taylor Stage"
+    "company": "OpenZeppelin",
+    "stage": "Taylor"
   },
   {
     "name": "Ernesto Olmedo Pereira",
-    "company": "",
-    "stage": "Kelly Stage"
+    "company": "SG Forge",
+    "stage": "Kelly"
   },
   {
     "name": "Eugene Joo",
-    "company": "",
-    "stage": "Taylor Stage"
+    "company": "Fhenix",
+    "stage": "Taylor"
   },
   {
     "name": "Everton Fraga",
     "company": "",
-    "stage": "Redford Stage"
+    "stage": "Redford"
   },
   {
     "name": "Fabrizio Romano Genovese",
     "company": "",
-    "stage": "Kelly Stage"
+    "stage": "Kelly"
   },
   {
     "name": "Faustine Fleuret",
-    "company": "",
-    "stage": "Taylor Stage"
+    "company": "Adan",
+    "stage": "Taylor"
   },
   {
     "name": "Federico Ast",
-    "company": "",
-    "stage": "Redford Stage"
+    "company": "Kleros",
+    "stage": "Redford"
   },
   {
     "name": "Fisher Yu",
     "company": "Babylon",
-    "stage": "Chaplin Stage"
+    "stage": "Chaplin"
   },
   {
     "name": "Florian Glatz",
-    "company": "",
-    "stage": "Kelly Stage"
+    "company": "European Crypto Initiative",
+    "stage": "Kelly"
   },
   {
     "name": "Fredrik Haga",
-    "company": "",
-    "stage": "Monroe Stage"
+    "company": "Dune Analytics",
+    "stage": "Monroe"
   },
   {
     "name": "Friederike Ernst",
-    "company": "",
-    "stage": "Redford Stage"
+    "company": "Gnosis",
+    "stage": "Redford"
   },
   {
     "name": "Gajinder Singh",
-    "company": "",
-    "stage": "Burton Stage"
+    "company": "Ethereum Foundation",
+    "stage": "Burton"
   },
   {
     "name": "Gauthier Leonard",
     "company": "Suzaku",
-    "stage": "Chaplin Stage"
+    "stage": "Chaplin"
   },
   {
     "name": "Gauthier Vila",
     "company": "",
-    "stage": "Taylor Stage"
+    "stage": "Taylor"
   },
   {
     "name": "Gio",
     "company": "Parity Technologies",
-    "stage": "Redford Stage"
+    "stage": "Redford"
   },
   {
     "name": "Gori",
     "company": "",
-    "stage": "Monroe Stage"
+    "stage": "Monroe"
   },
   {
     "name": "Greg Swirski",
     "company": "",
-    "stage": "Burton Stage"
+    "stage": "Burton"
   },
   {
     "name": "Griff",
-    "company": "",
-    "stage": "Monroe Stage"
+    "company": "Giveth / TheDAO",
+    "stage": "Monroe"
   },
   {
     "name": "Gwen",
     "company": "",
-    "stage": "Taylor Stage"
+    "stage": "Taylor"
   },
   {
     "name": "Gísli Kristjánsson",
-    "company": "",
-    "stage": "Monroe Stage"
+    "company": "Monerium",
+    "stage": "Monroe"
   },
   {
     "name": "Han",
     "company": "",
-    "stage": "Kelly Stage"
+    "stage": "Kelly"
   },
   {
     "name": "Harry Horsfall",
     "company": "",
-    "stage": "Kelly Stage"
+    "stage": "Kelly"
   },
   {
     "name": "Hayat Outahar",
     "company": "",
-    "stage": "Taylor Stage"
-  },
-  {
-    "name": "He Who Remains",
-    "company": "",
-    "stage": "Taylor Stage"
+    "stage": "Taylor"
   },
   {
     "name": "Henri Lieutaud",
-    "company": "",
-    "stage": "Monroe Stage"
+    "company": "Blockchain Oracle Summit",
+    "stage": "Monroe"
   },
   {
     "name": "Hester Bruikman",
-    "company": "",
-    "stage": "Taylor Stage"
+    "company": "Ethereum Foundation",
+    "stage": "Taylor"
+  },
+  {
+    "name": "Hildobby",
+    "company": "Dragonfly",
+    "stage": "Monroe"
   },
   {
     "name": "Hong Kim",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "IVa",
-    "company": "",
-    "stage": "Redford Stage"
+    "company": "Hashed",
+    "stage": "Monroe"
   },
   {
     "name": "Ishan Sharma",
     "company": "",
-    "stage": "Kelly Stage"
+    "stage": "Kelly"
+  },
+  {
+    "name": "IVa",
+    "company": "",
+    "stage": "Redford"
   },
   {
     "name": "Izzy Lido",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Jake O",
-    "company": "BitGo",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Jake Salerno",
-    "company": "",
-    "stage": "Burton Stage"
-  },
-  {
-    "name": "James Wo )",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Jan Gorzny",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Jan Setina",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Jason Lau",
-    "company": "OKX",
-    "stage": "Chaplin Stage"
-  },
-  {
-    "name": "Jean",
-    "company": "",
-    "stage": "Chaplin Stage"
-  },
-  {
-    "name": "Jean-Marc Stenger",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Jerome  de Tychey",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Jerome  de Tychey Ethereum France",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Jihoon Song",
-    "company": "Ethereum Foundation",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Jistro",
-    "company": "",
-    "stage": "Kelly Stage"
-  },
-  {
-    "name": "Joan  Alavedra",
-    "company": "",
-    "stage": "Taylor Stage"
-  },
-  {
-    "name": "Johann Eid",
-    "company": "Chainlink Labs",
-    "stage": "Chaplin Stage"
-  },
-  {
-    "name": "Johannes Kern",
-    "company": "",
-    "stage": "Taylor Stage"
-  },
-  {
-    "name": "John Hallahan",
-    "company": "Fireblocks",
-    "stage": "Chaplin Stage"
-  },
-  {
-    "name": "Jon Stephens",
-    "company": "",
-    "stage": "Kelly Stage"
-  },
-  {
-    "name": "Jonathan Han",
-    "company": "",
-    "stage": "Burton Stage"
-  },
-  {
-    "name": "Jonathan Meyer",
-    "company": "Ethstaker",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Jonathan Passerat-Palmbach",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Jonjon Clark",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Jordan Jefferson",
-    "company": "DogeOS",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Jordi Baylina",
-    "company": "ZisK",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Jork Leonhardt",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Jose",
-    "company": "",
-    "stage": "Kelly Stage"
-  },
-  {
-    "name": "Josef Jelacic",
-    "company": "",
-    "stage": "Kelly Stage"
-  },
-  {
-    "name": "Joshua Foster",
-    "company": "Quicknode",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "José Luu",
-    "company": "",
-    "stage": "Taylor Stage"
-  },
-  {
-    "name": "Juan David Mendieta",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Julian Grigo",
-    "company": "Safe",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Julie Bader",
-    "company": "",
-    "stage": "Taylor Stage"
-  },
-  {
-    "name": "Justin Ahn",
-    "company": "",
-    "stage": "Kelly Stage"
-  },
-  {
-    "name": "Justin Drake",
-    "company": "Ethereum Foundation",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Justin Kugel",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Justin Sun",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Kaloyan Kosev",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Karl Floersch",
-    "company": "",
-    "stage": "Kelly Stage"
-  },
-  {
-    "name": "Kasra Khosravi (Goldsky (and also erpc open",
-    "company": "",
-    "stage": "Burton Stage"
-  },
-  {
-    "name": "Kayden Moroz Liebl (https://github.com/ReamLabs/re",
-    "company": "",
-    "stage": "Taylor Stage"
-  },
-  {
-    "name": "Kelly Roegies",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Ken Smith",
-    "company": "NextBlock Solutions",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Kevin Jones",
-    "company": "",
-    "stage": "Burton Stage"
-  },
-  {
-    "name": "Kevin Weaver",
-    "company": "Optimism",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Kirk Baird",
-    "company": "",
-    "stage": "Kelly Stage"
-  },
-  {
-    "name": "Kite Liu",
-    "company": "Uniswap Labs",
-    "stage": "Taylor Stage"
-  },
-  {
-    "name": "Kolten Bergeron",
-    "company": "",
-    "stage": "Chaplin Stage"
-  },
-  {
-    "name": "Krzysztof Gogol",
-    "company": "",
-    "stage": "Chaplin Stage"
-  },
-  {
-    "name": "Kubi Mensah",
-    "company": "Gattaca",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "LATAM",
-    "company": "",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Ladislaus von Daniels",
-    "company": "Ethereum Foundation",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Lamboshi",
-    "company": "EthStaker",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Laszlo Szabo",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Laurence Day",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Leo",
-    "company": "MigaLabs",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Leo Fan Making Sub",
-    "company": "",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Lera",
-    "company": "",
-    "stage": "Kelly Stage"
-  },
-  {
-    "name": "Lioba Heimbach",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Liz Steininger",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Lola Rigaut-Luczak",
-    "company": "",
-    "stage": "Burton Stage"
-  },
-  {
-    "name": "Louie O'Connor",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Luca Winter",
-    "company": "Serenita",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Luis Correia",
-    "company": "Flashbots",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Marc Stenger",
-    "company": "Société Générale-Forge",
-    "stage": "Chaplin Stage"
-  },
-  {
-    "name": "Marcin Kazmierczak",
-    "company": "",
-    "stage": "Kelly Stage"
-  },
-  {
-    "name": "Maria Magenes",
-    "company": "",
-    "stage": "Taylor Stage"
-  },
-  {
-    "name": "Mariia Keiko",
-    "company": "",
-    "stage": "Burton Stage"
-  },
-  {
-    "name": "Marina Markezic",
-    "company": "",
-    "stage": "Kelly Stage"
-  },
-  {
-    "name": "Mario Baxter Cabrera",
-    "company": "",
-    "stage": "Chaplin Stage"
-  },
-  {
-    "name": "Marius van der Wijden",
-    "company": "Ethereum Foun",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Mark Ballandies",
-    "company": "",
-    "stage": "Chaplin Stage"
-  },
-  {
-    "name": "Martin Bruncko",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Martin Hansen",
-    "company": "",
-    "stage": "Taylor Stage"
-  },
-  {
-    "name": "Martin Leclercq",
-    "company": "",
-    "stage": "Kelly Stage"
-  },
-  {
-    "name": "Martin de Rijke",
-    "company": "Maple Finance",
-    "stage": "Chaplin Stage"
-  },
-  {
-    "name": "Massimo Cervesato",
-    "company": "Mastercard",
-    "stage": "Chaplin Stage"
-  },
-  {
-    "name": "Matt Pearring",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Max Lomu",
-    "company": "",
-    "stage": "Burton Stage"
-  },
-  {
-    "name": "Meinhard Benn",
-    "company": "",
-    "stage": "Kelly Stage"
-  },
-  {
-    "name": "Mende",
-    "company": "",
-    "stage": "Burton Stage"
-  },
-  {
-    "name": "Merlin Egalite",
-    "company": "",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Michael  Wu",
-    "company": "",
-    "stage": "Kelly Stage"
-  },
-  {
-    "name": "Michael Noble",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Mike McCabe",
-    "company": "",
-    "stage": "Taylor Stage"
-  },
-  {
-    "name": "Mohsen Ahmadvand )",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Mooly Sagiv",
-    "company": "Certora",
-    "stage": "Chaplin Stage"
-  },
-  {
-    "name": "Murat Ögat",
-    "company": "",
-    "stage": "Burton Stage"
-  },
-  {
-    "name": "Nadia Ivanova-banda",
-    "company": "",
-    "stage": "Taylor Stage"
-  },
-  {
-    "name": "Nahim Terrazas",
-    "company": "",
-    "stage": "Taylor Stage"
-  },
-  {
-    "name": "Nassim Alexa",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Nenter",
-    "company": "Nathan",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Nicolas  Consigny",
-    "company": "Ethereum Foundation",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Nicolas Assouad",
-    "company": "",
-    "stage": "Taylor Stage"
-  },
-  {
-    "name": "Nikhil J.",
-    "company": "USA",
-    "stage": "Chaplin Stage"
-  },
-  {
-    "name": "Nischal Sharma",
-    "company": "",
-    "stage": "Burton Stage"
-  },
-  {
-    "name": "Noid",
-    "company": "",
-    "stage": "Burton Stage"
-  },
-  {
-    "name": "Norbert Vadas",
-    "company": "Zenith",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Oghenekaro Elem",
-    "company": "",
-    "stage": "Chaplin Stage"
-  },
-  {
-    "name": "Oisín Kyne",
-    "company": "",
-    "stage": "Kelly Stage"
-  },
-  {
-    "name": "Oleg Lodygensky",
-    "company": "",
-    "stage": "Burton Stage"
-  },
-  {
-    "name": "Olivier Desenfans",
-    "company": "",
-    "stage": "Taylor Stage"
-  },
-  {
-    "name": "Ophelia Snyder",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Ottdogg",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Otto Jacobsson",
-    "company": "",
-    "stage": "Taylor Stage"
-  },
-  {
-    "name": "OxFlint_",
-    "company": "",
-    "stage": "Taylor Stage"
-  },
-  {
-    "name": "PBJ",
-    "company": "",
-    "stage": "Taylor Stage"
-  },
-  {
-    "name": "Pablo Veyrat",
-    "company": "",
-    "stage": "Kelly Stage"
-  },
-  {
-    "name": "Pamina Georgiev",
-    "company": "",
-    "stage": "Taylor Stage"
-  },
-  {
-    "name": "Patricio Worthalter",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Patrick Hansen",
-    "company": "",
-    "stage": "Kelly Stage"
-  },
-  {
-    "name": "Paul Brody",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Paul Schoenfelder",
-    "company": "",
-    "stage": "Kelly Stage"
-  },
-  {
-    "name": "Pauline Shangett",
-    "company": "",
-    "stage": "Taylor Stage"
-  },
-  {
-    "name": "Pedro Gomes",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Pedrosa",
-    "company": "SEI Labs",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Perezz",
-    "company": "Ethereum Foundation",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Petar Atanasovski",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Peter Us",
-    "company": "",
-    "stage": "Taylor Stage"
-  },
-  {
-    "name": "Pol Lanski",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Prabal Banerjee",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Pranay Valson",
-    "company": "",
-    "stage": "Kelly Stage"
-  },
-  {
-    "name": "Praneeth Srikanti",
-    "company": "",
-    "stage": "Taylor Stage"
-  },
-  {
-    "name": "Privacy Requires System",
-    "company": "Re",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Qi Zhou",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Raza Zaidi",
-    "company": "",
-    "stage": "Taylor Stage"
-  },
-  {
-    "name": "RealDennisO",
-    "company": "",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Rebecca Liao",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Redwan Meslem ERC",
-    "company": "",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Reid Simon",
-    "company": "",
-    "stage": "Kelly Stage"
-  },
-  {
-    "name": "Reka Medvecz",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Reno",
-    "company": "",
-    "stage": "Taylor Stage"
-  },
-  {
-    "name": "Richard Meissner",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Richardson",
-    "company": "Bancor Protocol",
-    "stage": "Chaplin Stage"
-  },
-  {
-    "name": "Romain Menetrier",
-    "company": "",
-    "stage": "Burton Stage"
-  },
-  {
-    "name": "Ryan Sauge",
-    "company": "",
-    "stage": "Burton Stage"
-  },
-  {
-    "name": "Rémi",
-    "company": "",
-    "stage": "Taylor Stage"
-  },
-  {
-    "name": "SEVEN",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Sajida",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Sam Reeves",
-    "company": "",
-    "stage": "Burton Stage"
-  },
-  {
-    "name": "Sarah Hicks",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Satya",
-    "company": "",
-    "stage": "Burton Stage"
-  },
-  {
-    "name": "Sebastian Widmann",
-    "company": "",
-    "stage": "Kelly Stage"
-  },
-  {
-    "name": "Sebastien Borget",
-    "company": "",
-    "stage": "Kelly Stage"
-  },
-  {
-    "name": "Sejal",
-    "company": "Protocol labs Filecoin Impact Fund (PLFIF",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Sergej Kunz",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Seth For Privacy",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Shane",
-    "company": "Sigma Prime",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Simo",
-    "company": "Aave",
-    "stage": "Chaplin Stage"
-  },
-  {
-    "name": "Simon Masson",
-    "company": "",
-    "stage": "Taylor Stage"
-  },
-  {
-    "name": "Simon Polrot",
-    "company": "",
-    "stage": "Kelly Stage"
-  },
-  {
-    "name": "Simona Pop",
-    "company": "Angel Investor & Advisor at Large",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Skeletor Spaceman",
-    "company": "Wonderland",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Slobodan Lukovic",
-    "company": "",
-    "stage": "Burton Stage"
-  },
-  {
-    "name": "Soufia",
-    "company": "Mellow",
-    "stage": "Chaplin Stage"
-  },
-  {
-    "name": "Stani  Kulechov",
-    "company": "Aave Labs",
-    "stage": "Chaplin Stage"
-  },
-  {
-    "name": "Stanislas de Maistre",
-    "company": "Belem Capital",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Stefan  Kobrc",
-    "company": "Rocklogic Gmbh",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Stefan Loesch",
-    "company": "",
-    "stage": "Chaplin Stage"
-  },
-  {
-    "name": "Stefano De Angelis Rethinking PeerDAS: Transparent",
-    "company": "",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Stefano Gogioso",
-    "company": "",
-    "stage": "Kelly Stage"
-  },
-  {
-    "name": "Steffen Kux",
-    "company": "",
-    "stage": "Taylor Stage"
-  },
-  {
-    "name": "Stepan Nilov",
-    "company": "Tangem",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Stephan Duan",
-    "company": "",
-    "stage": "Kelly Stage"
-  },
-  {
-    "name": "Stéphane Tetsing",
-    "company": "",
-    "stage": "Burton Stage"
-  },
-  {
-    "name": "Suhyeon Lee",
-    "company": "",
-    "stage": "Chaplin Stage"
-  },
-  {
-    "name": "Suji",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Suki Yang",
-    "company": "",
-    "stage": "Burton Stage"
-  },
-  {
-    "name": "Sunny Jiang",
-    "company": "",
-    "stage": "Kelly Stage"
-  },
-  {
-    "name": "Sylvain Prigent",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Terence Tsao",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Tiago Santana",
-    "company": "",
-    "stage": "Chaplin Stage"
-  },
-  {
-    "name": "Tom David",
-    "company": "",
-    "stage": "Burton Stage"
-  },
-  {
-    "name": "Tom Trowbridge",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Tomasz Stanczak",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Tomer Ganor",
-    "company": "",
-    "stage": "Kelly Stage"
-  },
-  {
-    "name": "Tomer Weller",
-    "company": "Stellar Development Foundation",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Toni Wahrstaetter",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Tümay Tuzcu",
-    "company": "",
-    "stage": "Burton Stage"
-  },
-  {
-    "name": "Uros Trbovic",
-    "company": "",
-    "stage": "Burton Stage"
-  },
-  {
-    "name": "Vabuk (Max Planck Institute for So",
-    "company": "",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Val  Gui",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Vasily Sidorov",
-    "company": "",
-    "stage": "Burton Stage"
-  },
-  {
-    "name": "Victor Chiea",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Victoria CALMON",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Vincent",
-    "company": "Redbelly Network / The University of Sydney",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Vitalik Buterin",
-    "company": "Ethereum Foundation",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Wesley Crook",
-    "company": "FP Block",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Will Papper",
-    "company": "",
-    "stage": "Taylor Stage"
-  },
-  {
-    "name": "William",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "William George",
-    "company": "",
-    "stage": "Chaplin Stage"
-  },
-  {
-    "name": "Wish Wu",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Wolfgang Vitale",
-    "company": "",
-    "stage": "Burton Stage"
-  },
-  {
-    "name": "Xiangru Ma",
-    "company": "",
-    "stage": "Burton Stage"
-  },
-  {
-    "name": "Yanis Meziane",
-    "company": "",
-    "stage": "Taylor Stage"
-  },
-  {
-    "name": "Yaniv Tal",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Yeho Hwang",
-    "company": "",
-    "stage": "Burton Stage"
-  },
-  {
-    "name": "Yi Sun",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "Yoichi Hirai",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Yorick Downe Home staking behind CGNAT",
-    "company": "",
-    "stage": "Hepburn Stage"
-  },
-  {
-    "name": "Zac  Williamson",
-    "company": "",
-    "stage": "Monroe Stage"
-  },
-  {
-    "name": "Zach Pandl",
-    "company": "",
-    "stage": "Burton Stage"
-  },
-  {
-    "name": "agaperste",
-    "company": "",
-    "stage": "Kelly Stage"
-  },
-  {
-    "name": "albicodes",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "btchip",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "cheeky-gorilla",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "dee_centralized",
-    "company": "",
-    "stage": "Redford Stage"
-  },
-  {
-    "name": "definikola",
-    "company": "",
-    "stage": "Burton Stage"
-  },
-  {
-    "name": "hildobby",
-    "company": "",
-    "stage": "Monroe Stage"
+    "company": "Lido",
+    "stage": "Redford"
   },
   {
     "name": "jacobc.eth",
     "company": "",
-    "stage": "Kelly Stage"
+    "stage": "Kelly"
   },
   {
-    "name": "nisedo",
-    "company": "",
-    "stage": "Kelly Stage"
+    "name": "Jake O",
+    "company": "BitGo",
+    "stage": "Hepburn"
   },
   {
-    "name": "oskarth",
+    "name": "Jake Salerno",
     "company": "",
-    "stage": "Kelly Stage"
+    "stage": "Burton"
   },
   {
-    "name": "wei3erHase",
+    "name": "James Wo",
     "company": "",
-    "stage": "Kelly Stage"
+    "stage": "Monroe"
   },
   {
-    "name": "zk_evm",
+    "name": "Jan Gorzny",
     "company": "",
-    "stage": "Kelly Stage"
+    "stage": "Redford"
+  },
+  {
+    "name": "Jan Setina",
+    "company": "Trezor",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Jason Lau",
+    "company": "OKX",
+    "stage": "Chaplin"
+  },
+  {
+    "name": "Jean",
+    "company": "",
+    "stage": "Chaplin"
+  },
+  {
+    "name": "Jean-Marc Stenger",
+    "company": "Société Générale-Forge",
+    "stage": "Redford"
+  },
+  {
+    "name": "Jerome de Tychey",
+    "company": "Ethereum France",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Jerome de Tychey Ethereum France",
+    "company": "",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Jihoon Song",
+    "company": "Ethereum Foundation",
+    "stage": "Hepburn"
+  },
+  {
+    "name": "Jistro",
+    "company": "",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Joan Alavedra",
+    "company": "",
+    "stage": "Taylor"
+  },
+  {
+    "name": "Johann Eid",
+    "company": "Chainlink Labs",
+    "stage": "Chaplin"
+  },
+  {
+    "name": "Johannes Kern",
+    "company": "",
+    "stage": "Taylor"
+  },
+  {
+    "name": "John Hallahan",
+    "company": "Fireblocks",
+    "stage": "Chaplin"
+  },
+  {
+    "name": "Jon Stephens",
+    "company": "",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Jonathan Han",
+    "company": "",
+    "stage": "Burton"
+  },
+  {
+    "name": "Jonathan Meyer",
+    "company": "Ethstaker",
+    "stage": "Hepburn"
+  },
+  {
+    "name": "Jonathan Passerat-Palmbach",
+    "company": "Flashbots",
+    "stage": "Redford"
+  },
+  {
+    "name": "Jonjon Clark",
+    "company": "Uniswap",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Jordan Jefferson",
+    "company": "DogeOS",
+    "stage": "Redford"
+  },
+  {
+    "name": "Jordi Baylina",
+    "company": "ZisK",
+    "stage": "Redford"
+  },
+  {
+    "name": "Jork Leonhardt",
+    "company": "",
+    "stage": "Redford"
+  },
+  {
+    "name": "Jose",
+    "company": "",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Josef Jelacic",
+    "company": "",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Joshua Foster",
+    "company": "Quicknode",
+    "stage": "Hepburn"
+  },
+  {
+    "name": "José Luu",
+    "company": "",
+    "stage": "Taylor"
+  },
+  {
+    "name": "Juan David Mendieta",
+    "company": "",
+    "stage": "Redford"
+  },
+  {
+    "name": "Julian Grigo",
+    "company": "Safe",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Julie Bader",
+    "company": "",
+    "stage": "Taylor"
+  },
+  {
+    "name": "Justin Ahn",
+    "company": "",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Justin Drake",
+    "company": "Ethereum Foundation",
+    "stage": "Hepburn"
+  },
+  {
+    "name": "Justin Kugel",
+    "company": "",
+    "stage": "Redford"
+  },
+  {
+    "name": "Justin Sun",
+    "company": "Tron",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Kaloyan Kosev",
+    "company": "",
+    "stage": "Redford"
+  },
+  {
+    "name": "Karl Floersch",
+    "company": "Optimism",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Kelly Roegies",
+    "company": "",
+    "stage": "Redford"
+  },
+  {
+    "name": "Ken Smith",
+    "company": "NextBlock Solutions",
+    "stage": "Hepburn"
+  },
+  {
+    "name": "Kevin Jones",
+    "company": "",
+    "stage": "Burton"
+  },
+  {
+    "name": "Kevin Weaver",
+    "company": "Optimism",
+    "stage": "Hepburn"
+  },
+  {
+    "name": "Kirk Baird",
+    "company": "Sigma Prime",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Kite Liu",
+    "company": "Uniswap Labs",
+    "stage": "Taylor"
+  },
+  {
+    "name": "Kolten Bergeron",
+    "company": "Stellar Development Foundation",
+    "stage": "Chaplin"
+  },
+  {
+    "name": "Krzysztof Gogol",
+    "company": "",
+    "stage": "Chaplin"
+  },
+  {
+    "name": "Kubi Mensah",
+    "company": "Gattaca",
+    "stage": "Hepburn"
+  },
+  {
+    "name": "Ladislaus von Daniels",
+    "company": "Ethereum Foundation",
+    "stage": "Hepburn"
+  },
+  {
+    "name": "Lamboshi",
+    "company": "EthStaker",
+    "stage": "Hepburn"
+  },
+  {
+    "name": "Laszlo Szabo",
+    "company": "Kiln",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Laurence Day",
+    "company": "Wildcat Protocol",
+    "stage": "Redford"
+  },
+  {
+    "name": "Leo",
+    "company": "MigaLabs",
+    "stage": "Hepburn"
+  },
+  {
+    "name": "Lera",
+    "company": "",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Lioba Heimbach",
+    "company": "ETH Zurich",
+    "stage": "Redford"
+  },
+  {
+    "name": "Liz Steininger",
+    "company": "Least Authority",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Lola Rigaut-Luczak",
+    "company": "",
+    "stage": "Burton"
+  },
+  {
+    "name": "Louie O'Connor",
+    "company": "",
+    "stage": "Redford"
+  },
+  {
+    "name": "Luca Winter",
+    "company": "Serenita",
+    "stage": "Hepburn"
+  },
+  {
+    "name": "Luis Correia",
+    "company": "Flashbots",
+    "stage": "Hepburn"
+  },
+  {
+    "name": "Marc Stenger",
+    "company": "Société Générale-Forge",
+    "stage": "Chaplin"
+  },
+  {
+    "name": "Marcin Kazmierczak",
+    "company": "RedStone Oracles",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Maria Magenes",
+    "company": "",
+    "stage": "Taylor"
+  },
+  {
+    "name": "Mariia Keiko",
+    "company": "CoW DAO",
+    "stage": "Burton"
+  },
+  {
+    "name": "Marina Markezic",
+    "company": "European Crypto Initiative",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Mario Baxter Cabrera",
+    "company": "Aave",
+    "stage": "Chaplin"
+  },
+  {
+    "name": "Marius van der Wijden",
+    "company": "Ethereum Foun",
+    "stage": "Hepburn"
+  },
+  {
+    "name": "Mark Ballandies",
+    "company": "ETH Zurich",
+    "stage": "Chaplin"
+  },
+  {
+    "name": "Martin Bruncko",
+    "company": "",
+    "stage": "Redford"
+  },
+  {
+    "name": "Martin de Rijke",
+    "company": "Maple Finance",
+    "stage": "Chaplin"
+  },
+  {
+    "name": "Martin Hansen",
+    "company": "",
+    "stage": "Taylor"
+  },
+  {
+    "name": "Martin Leclercq",
+    "company": "",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Massimo Cervesato",
+    "company": "Mastercard",
+    "stage": "Chaplin"
+  },
+  {
+    "name": "Matt Pearring",
+    "company": "",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Max Lomu",
+    "company": "",
+    "stage": "Burton"
+  },
+  {
+    "name": "MB Richardson",
+    "company": "Bancor Protocol",
+    "stage": "Chaplin"
+  },
+  {
+    "name": "Meinhard Benn",
+    "company": "SatoshiPay",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Mende",
+    "company": "",
+    "stage": "Burton"
+  },
+  {
+    "name": "Merlin Egalite",
+    "company": "Morpho",
+    "stage": "Hepburn"
+  },
+  {
+    "name": "Michael Noble",
+    "company": "",
+    "stage": "Redford"
+  },
+  {
+    "name": "Michael Wu",
+    "company": "",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Mike McCabe",
+    "company": "",
+    "stage": "Taylor"
+  },
+  {
+    "name": "Mohsen Ahmadvand",
+    "company": "",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Mooly Sagiv",
+    "company": "Certora",
+    "stage": "Chaplin"
+  },
+  {
+    "name": "Murat Ögat",
+    "company": "Aktionariat",
+    "stage": "Burton"
+  },
+  {
+    "name": "Nadia Ivanova-banda",
+    "company": "",
+    "stage": "Taylor"
+  },
+  {
+    "name": "Nahim Terrazas",
+    "company": "Across Protocol",
+    "stage": "Taylor"
+  },
+  {
+    "name": "Nassim Alexa",
+    "company": "",
+    "stage": "Redford"
+  },
+  {
+    "name": "Nicolas Assouad",
+    "company": "",
+    "stage": "Taylor"
+  },
+  {
+    "name": "Nicolas Consigny",
+    "company": "Ethereum Foundation",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Nikhil J.",
+    "company": "USA",
+    "stage": "Chaplin"
+  },
+  {
+    "name": "Nischal Sharma",
+    "company": "",
+    "stage": "Burton"
+  },
+  {
+    "name": "Nisedo",
+    "company": "Trail of Bits",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Noid",
+    "company": "",
+    "stage": "Burton"
+  },
+  {
+    "name": "Norbert Vadas",
+    "company": "Zenith",
+    "stage": "Hepburn"
+  },
+  {
+    "name": "Oghenekaro Elem",
+    "company": "",
+    "stage": "Chaplin"
+  },
+  {
+    "name": "Oisín Kyne",
+    "company": "",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Oleg Lodygensky",
+    "company": "",
+    "stage": "Burton"
+  },
+  {
+    "name": "Olivier Desenfans",
+    "company": "Aleph Cloud",
+    "stage": "Taylor"
+  },
+  {
+    "name": "Ophelia Snyder",
+    "company": "21Shares",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Oskarth",
+    "company": "Waku / Status",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Ottdogg",
+    "company": "",
+    "stage": "Redford"
+  },
+  {
+    "name": "Otto Jacobsson",
+    "company": "",
+    "stage": "Taylor"
+  },
+  {
+    "name": "OxFlint_",
+    "company": "",
+    "stage": "Taylor"
+  },
+  {
+    "name": "Pablo Veyrat",
+    "company": "Angle Protocol",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Pamina Georgiev",
+    "company": "",
+    "stage": "Taylor"
+  },
+  {
+    "name": "Patricio Worthalter",
+    "company": "POAP",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Patrick Hansen",
+    "company": "Circle",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Paul Brody",
+    "company": "EY (Ernst & Young",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Paul Schoenfelder",
+    "company": "Miden (Polygon",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Pauline Shangett",
+    "company": "",
+    "stage": "Taylor"
+  },
+  {
+    "name": "PBJ",
+    "company": "",
+    "stage": "Taylor"
+  },
+  {
+    "name": "Pedro Gomes",
+    "company": "WalletConnect",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Petar Atanasovski",
+    "company": "",
+    "stage": "Redford"
+  },
+  {
+    "name": "Peter Us",
+    "company": "",
+    "stage": "Taylor"
+  },
+  {
+    "name": "Pol Lanski",
+    "company": "Peaq",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Prabal Banerjee",
+    "company": "Avail",
+    "stage": "Redford"
+  },
+  {
+    "name": "Pranay Valson",
+    "company": "",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Praneeth Srikanti",
+    "company": "",
+    "stage": "Taylor"
+  },
+  {
+    "name": "Qi Zhou",
+    "company": "EthStorage",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Raza Zaidi",
+    "company": "",
+    "stage": "Taylor"
+  },
+  {
+    "name": "RealDennisO",
+    "company": "",
+    "stage": "Hepburn"
+  },
+  {
+    "name": "Rebecca Liao",
+    "company": "Saga",
+    "stage": "Redford"
+  },
+  {
+    "name": "Redwan Meslem ERC",
+    "company": "",
+    "stage": "Hepburn"
+  },
+  {
+    "name": "Reid Simon",
+    "company": "Figure Technology",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Reka Medvecz",
+    "company": "",
+    "stage": "Redford"
+  },
+  {
+    "name": "Reno",
+    "company": "",
+    "stage": "Taylor"
+  },
+  {
+    "name": "Richard Meissner",
+    "company": "Safe",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Romain Menetrier",
+    "company": "",
+    "stage": "Burton"
+  },
+  {
+    "name": "Ryan Sauge",
+    "company": "",
+    "stage": "Burton"
+  },
+  {
+    "name": "Rémi",
+    "company": "",
+    "stage": "Taylor"
+  },
+  {
+    "name": "Sajida",
+    "company": "",
+    "stage": "Redford"
+  },
+  {
+    "name": "Sam Reeves",
+    "company": "",
+    "stage": "Burton"
+  },
+  {
+    "name": "Sarah Hicks",
+    "company": "",
+    "stage": "Redford"
+  },
+  {
+    "name": "Satya",
+    "company": "",
+    "stage": "Burton"
+  },
+  {
+    "name": "Sebastian Widmann",
+    "company": "",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Sebastien Borget",
+    "company": "The Sandbox",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Sejal",
+    "company": "Protocol labs Filecoin Impact Fund (PLFIF",
+    "stage": "Hepburn"
+  },
+  {
+    "name": "Sergej Kunz",
+    "company": "1inch",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Seth For Privacy",
+    "company": "Monero / FOSS",
+    "stage": "Redford"
+  },
+  {
+    "name": "SEVEN",
+    "company": "",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Simo",
+    "company": "Aave",
+    "stage": "Chaplin"
+  },
+  {
+    "name": "Simon Masson",
+    "company": "Ethereum Foundation",
+    "stage": "Taylor"
+  },
+  {
+    "name": "Simon Polrot",
+    "company": "Ethereum France",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Simona Pop",
+    "company": "Angel Investor & Advisor at Large",
+    "stage": "Redford"
+  },
+  {
+    "name": "Skeletor Spaceman",
+    "company": "Wonderland",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Slobodan Lukovic",
+    "company": "",
+    "stage": "Burton"
+  },
+  {
+    "name": "Soufia",
+    "company": "Mellow",
+    "stage": "Chaplin"
+  },
+  {
+    "name": "Stani Kulechov",
+    "company": "Aave Labs",
+    "stage": "Chaplin"
+  },
+  {
+    "name": "Stanislas de Maistre",
+    "company": "Belem Capital",
+    "stage": "Redford"
+  },
+  {
+    "name": "Stefan Kobrc",
+    "company": "Rocklogic Gmbh",
+    "stage": "Hepburn"
+  },
+  {
+    "name": "Stefan Loesch",
+    "company": "",
+    "stage": "Chaplin"
+  },
+  {
+    "name": "Stefano Gogioso",
+    "company": "",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Steffen Kux",
+    "company": "Colibri",
+    "stage": "Taylor"
+  },
+  {
+    "name": "Stepan Nilov",
+    "company": "Tangem",
+    "stage": "Hepburn"
+  },
+  {
+    "name": "Stephan Duan",
+    "company": "",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Stéphane Tetsing",
+    "company": "Remix IDE",
+    "stage": "Burton"
+  },
+  {
+    "name": "Suhyeon Lee",
+    "company": "",
+    "stage": "Chaplin"
+  },
+  {
+    "name": "Suji",
+    "company": "Mask Network",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Suki Yang",
+    "company": "",
+    "stage": "Burton"
+  },
+  {
+    "name": "Sunny Jiang",
+    "company": "",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Sylvain Prigent",
+    "company": "",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Terence Tsao",
+    "company": "Offchain Labs",
+    "stage": "Redford"
+  },
+  {
+    "name": "Tiago Santana",
+    "company": "",
+    "stage": "Chaplin"
+  },
+  {
+    "name": "Tom David",
+    "company": "",
+    "stage": "Burton"
+  },
+  {
+    "name": "Tom Trowbridge",
+    "company": "Peaq",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Tomasz Stanczak",
+    "company": "Nethermind",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Tomer Ganor",
+    "company": "Aave Labs",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Tomer Weller",
+    "company": "Stellar Development Foundation",
+    "stage": "Hepburn"
+  },
+  {
+    "name": "Toni Wahrstaetter",
+    "company": "Ethereum Foundation",
+    "stage": "Redford"
+  },
+  {
+    "name": "Trillion Dollar Security",
+    "company": "1TS",
+    "stage": "Taylor"
+  },
+  {
+    "name": "Tümay Tuzcu",
+    "company": "",
+    "stage": "Burton"
+  },
+  {
+    "name": "Uros Trbovic",
+    "company": "",
+    "stage": "Burton"
+  },
+  {
+    "name": "Val Gui",
+    "company": "Kiln",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Vasily Sidorov",
+    "company": "",
+    "stage": "Burton"
+  },
+  {
+    "name": "Victor Chiea",
+    "company": "",
+    "stage": "Redford"
+  },
+  {
+    "name": "Victoria CALMON",
+    "company": "",
+    "stage": "Redford"
+  },
+  {
+    "name": "Vincent",
+    "company": "Redbelly Network / The University of Sydney",
+    "stage": "Hepburn"
+  },
+  {
+    "name": "Vitalik Buterin",
+    "company": "Ethereum Foundation",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Wei3erhase",
+    "company": "HAI Finance",
+    "stage": "Kelly"
+  },
+  {
+    "name": "Wesley Crook",
+    "company": "FP Block",
+    "stage": "Hepburn"
+  },
+  {
+    "name": "Will Papper",
+    "company": "Syndicate",
+    "stage": "Taylor"
+  },
+  {
+    "name": "William",
+    "company": "",
+    "stage": "Monroe"
+  },
+  {
+    "name": "William George",
+    "company": "",
+    "stage": "Chaplin"
+  },
+  {
+    "name": "Wish Wu",
+    "company": "",
+    "stage": "Redford"
+  },
+  {
+    "name": "Wolfgang Vitale",
+    "company": "",
+    "stage": "Burton"
+  },
+  {
+    "name": "Xiangru Ma",
+    "company": "",
+    "stage": "Burton"
+  },
+  {
+    "name": "Yanis Meziane",
+    "company": "",
+    "stage": "Taylor"
+  },
+  {
+    "name": "Yaniv Tal",
+    "company": "The Graph",
+    "stage": "Redford"
+  },
+  {
+    "name": "Yeho Hwang",
+    "company": "",
+    "stage": "Burton"
+  },
+  {
+    "name": "Yi Sun",
+    "company": "OpenVM / Axiom",
+    "stage": "Redford"
+  },
+  {
+    "name": "Yoichi Hirai",
+    "company": "Ethereum Foundation",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Zac Williamson",
+    "company": "Aztec",
+    "stage": "Monroe"
+  },
+  {
+    "name": "Zach Pandl",
+    "company": "Grayscale",
+    "stage": "Burton"
+  },
+  {
+    "name": "Zk_evm",
+    "company": "",
+    "stage": "Kelly"
   }
 ]
