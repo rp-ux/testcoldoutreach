@@ -1,0 +1,169 @@
+#!/usr/bin/env python3
+"""Compile all contact search results into a single CSV."""
+import csv
+
+# All 127 contacts with search results compiled from 9 batches
+contacts = [
+    # #, Speaker, Company, LinkedIn, Twitter/X, Email, Other
+    (1, "0xAlex", "Kleros", "", "", "", "ENS: 0xalex0.eth; DAO Lead at Kleros"),
+    (2, "0xPenryn", "World (Worldcoin)", "", "https://x.com/0xpenryn", "", "GitHub contributor to Worldcoin"),
+    (3, "Akaki Mamageishvili", "Offchain Labs", "https://www.linkedin.com/in/akaki-mamageishvili-%F0%9F%87%BA%F0%9F%87%A6-b40824b3/", "https://x.com/kakia1989", "", "Personal site: http://www.mamageishvili.info/"),
+    (4, "Alex Cutler", "Aerodrome", "", "https://x.com/wagmiAlexander", "", "Co-Founder Aerodrome, CEO Dromos Labs"),
+    (5, "Alexander", "Miden (Polygon)", "", "", "", "Full name not identified"),
+    (6, "Ambre Soubiran", "Kaiko", "https://www.linkedin.com/in/ambresoub/", "https://x.com/ambresoub", "", "CEO & Co-Founder of Kaiko"),
+    (7, "Ambroise Helaine", "Bybit", "https://www.linkedin.com/in/ambroise-helaine-3426b345/", "https://x.com/AmbroiseH_Bybit", "", "Country Manager France at Bybit"),
+    (8, "Andrea Canidio", "CoW Protocol", "https://www.linkedin.com/in/acanidio", "https://x.com/AndreaCanidio", "", "Senior Research Economist; site: http://andreacanidio.com/"),
+    (9, "Andreas Melhede", "Elata Protocol", "https://www.linkedin.com/in/andreasmelhede/", "https://x.com/AMelhede", "", "Co-Founder Elata Biosciences; GitHub: AMelhede"),
+    (10, "Andrew O'Neill", "S&P Global", "https://www.linkedin.com/in/andrew-o-neill-cfa-954326a1/", "", "", "MD & Co-Chair Digital Assets Research Lab"),
+    (11, "Andrii Bondar", "Matter Labs (zkSync)", "https://www.linkedin.com/in/andriibondards/", "https://x.com/andriibondards", "", "Site: https://andriibondar.com/"),
+    (12, "Andy Boyan", "The Rollup", "https://www.linkedin.com/in/andyboyan", "https://x.com/ayyyeandy", "", "Co-Founder The Rollup podcast"),
+    (13, "Angela Kreitenweis", "Token Engineering Academy", "https://www.linkedin.com/in/angelakreitenweis/", "https://x.com/akrtws", "", "Linktree: https://linktr.ee/akrtws"),
+    (14, "Arthur Breitman", "Tezos", "", "https://x.com/ArthurB", "", "Disclaims LinkedIn; personal site: https://ex.rs"),
+    (15, "Bhaji Illuminati", "Centrifuge", "https://www.linkedin.com/in/bhajiilluminati", "https://x.com/itsbhaji", "", "CEO of Centrifuge"),
+    (16, "BlockShane (Shane K Moore)", "Sigma Prime", "https://www.linkedin.com/in/shanekmoore/", "", "", "GitHub: shane-moore; Lighthouse contributor"),
+    (17, "Bob Summerwill", "ETC Cooperative", "https://www.linkedin.com/in/bobsummerwill/", "https://x.com/BobSummerwill", "", "Site: https://bobsummerwill.com/"),
+    (18, "Brenda Loya", "Tellor", "https://www.linkedin.com/in/brendaloya/", "https://x.com/JustBrendax", "", "CEO & Co-Founder of Tellor"),
+    (19, "Btchip (Nicolas Bacca)", "Ledger", "", "https://x.com/btchip", "", "Co-founder & former CTO Ledger; GitHub: btchip"),
+    (20, "Charles Cooper", "Vyper", "", "https://x.com/big_tech_sux", "", "Core Contributor/Lead Developer; GitHub: charles-cooper"),
+    (21, "Charles D'haussy", "dYdX Foundation", "https://www.linkedin.com/in/charlesdhaussy", "https://x.com/charlesdhaussy", "", "Site: https://charlesdhaussy.com"),
+    (22, "Charles Guillemet", "Ledger", "https://www.linkedin.com/in/charles-guillemet", "https://x.com/P3b7_", "", "CTO at Ledger"),
+    (23, "Chris McCabe", "Session", "", "https://x.com/Mr_CryptoMC", "", "Co-founder Session/Oxen/Chainflip"),
+    (24, "Christoph Schlegel", "Flashbots", "", "https://x.com/janschlegel1", "", "Academic: https://www.econblockchain.com/schlegel.html"),
+    (25, "Clement Lesaege", "Kleros", "https://www.linkedin.com/in/cl%C3%A9ment-lesaege-a326b9ab/", "https://x.com/clesaege", "", "GitHub: clesaege"),
+    (26, "Conor Grogan", "Coinbase", "https://www.linkedin.com/in/jconorgrogan", "https://x.com/jconorgrogan", "", "Director, Product Strategy & Business Operations"),
+    (27, "Daniel Elkins", "DGRS Labs", "", "", "", "No public profiles found"),
+    (28, "David Leonardi", "Polygon", "https://www.linkedin.com/in/dleonardi/", "", "", "Note: LinkedIn shows Nethermind"),
+    (29, "David Mühlbacher", "Stereum Services FlexCo", "https://www.linkedin.com/in/david-m%C3%BChlbacher-9981541a6/", "", "", "Also at RockLogic GmbH; company: @stereumdev"),
+    (30, "Declan Fox", "Linea", "https://www.linkedin.com/in/declan-fox-b743869b/", "https://x.com/DeclanFox14", "", "Linea / Consensys"),
+    (31, "Doo Wan Nam", "StableDAO", "https://www.linkedin.com/in/doo-wan-nam-b8943443/", "https://x.com/DooWanNam", "", "Co-Founder & COO at StableLab"),
+    (32, "Drake Breeding", "Arc", "https://www.linkedin.com/in/drake-breeding/", "https://x.com/DrakeBreeding", "", "Ecosystem at Arc (Circle); Linktree: https://linktr.ee/DrakeBreeding"),
+    (33, "Ed Felten", "Offchain Labs", "https://www.linkedin.com/in/ed-felten-275171", "https://x.com/EdFelten", "", "Medium: https://medium.com/@EdFelten"),
+    (34, "Emilio Frangella", "Aave Labs", "https://www.linkedin.com/in/emilio-frangella/", "https://x.com/The3D_", "", "Head of Smart Contracts at Aave"),
+    (35, "Emma Landriault", "J.P. Morgan Chase", "https://www.linkedin.com/in/emma-landriault/", "https://x.com/emmalandriault1", "", "Executive Director, JPM Coin / Kinexys"),
+    (36, "Ernesto Olmedo Pereira", "SG Forge", "https://www.linkedin.com/in/ernestopereira/", "https://x.com/ErnestOlmedo", "", "Note: currently Head of Strategy & DeFi at Qivalis"),
+    (37, "Eugene Joo", "Fhenix", "", "", "", "Also President at bitBLUE"),
+    (38, "Faustine Fleuret", "Adan", "https://www.linkedin.com/in/faustine-fleuret-640b67a4/", "https://x.com/faufleuret", "", "Co-founder Adan; now at Morpho"),
+    (39, "Federico Ast", "Kleros", "https://www.linkedin.com/in/federicoast/", "https://x.com/federicoast", "", ""),
+    (40, "Fisher Yu", "Babylon", "https://au.linkedin.com/in/mingchaoyu", "https://x.com/baby_fisherman", "", "Site: https://www.fisheryu.io/"),
+    (41, "Fredrik Haga", "Dune Analytics", "https://www.linkedin.com/in/fredrikhaga/", "https://x.com/hagaetc", "", "Co-Founder & CEO; site: https://www.haga.tech/"),
+    (42, "Friederike Ernst", "Gnosis", "https://www.linkedin.com/in/dr-friederike-ernst-606770a8/", "https://x.com/tw_tter", "", "Co-Founder & COO Gnosis; PhD physicist"),
+    (43, "Gauthier Leonard", "Suzaku", "https://www.linkedin.com/in/gauthier-leonard/", "https://x.com/Nutymoon", "", "Co-Founder & CEO e36knots/Suzaku"),
+    (44, "Gio", "Parity Technologies", "", "", "", "Full name not identified"),
+    (45, "Griff Green", "Giveth / TheDAO", "https://www.linkedin.com/in/griffgreen", "https://x.com/thegrifft", "", "Co-founder Giveth, Commons Stack, DAppNode; GitHub: GriffGreen"),
+    (46, "Gísli Kristjánsson", "Monerium", "https://is.linkedin.com/in/gislik", "https://x.com/gislik", "", ""),
+    (47, "Henri Lieutaud", "Blockchain Oracle Summit", "https://www.linkedin.com/in/henri-lieutaud-2156a142/", "https://x.com/henrlihenrli", "", "Head of DevRel at Starknet Foundation"),
+    (48, "Hildobby (Hildebert Moulie)", "Dragonfly", "https://www.linkedin.com/in/hildebert/", "https://x.com/hildobby_", "", "Head of Data Science; #1 on Dune Analytics; GitHub: hildobby"),
+    (49, "Hong Kim", "Hashed", "", "https://x.com/hongkim__", "", "Note: Twitter may be different person (Bitwise CTO)"),
+    (50, "Jake O", "BitGo", "", "", "", "MD & Head of Ecosystem; co-founded HeightZero (acquired by BitGo)"),
+    (51, "Jan Setina", "Trezor", "", "", "", "No public profiles found"),
+    (52, "Jason Lau", "OKX", "https://www.linkedin.com/in/jasonklau", "https://x.com/jasonklau", "", ""),
+    (53, "Jean-Marc Stenger", "Société Générale-Forge", "https://www.linkedin.com/in/jean-marc-stenger-89115040", "", "", "CEO SG Forge"),
+    (54, "Johann Eid", "Chainlink Labs", "https://www.linkedin.com/in/johanneid/", "https://x.com/EidJohann", "", "CBO / VP Go-To-Market at Chainlink"),
+    (55, "John Hallahan", "Fireblocks", "https://www.linkedin.com/in/john-hallahan-a1698580/", "", "", "Director / Head of Business Solutions EMEA & Americas"),
+    (56, "Jonathan Meyer", "EthStaker", "https://www.linkedin.com/in/jonathanwmeyer/", "https://x.com/jwmeyer", "", "Executive Director EthStaker"),
+    (57, "Jonathan Passerat-Palmbach", "Flashbots", "https://www.linkedin.com/in/jopasserat/", "", "", "Site: https://jopasser.at/"),
+    (58, "Jonjon Clark", "Uniswap", "https://uk.linkedin.com/in/jonathan-clark-637344143", "https://x.com/jonjonclark", "", "Co-Founder Envio; site: https://www.jonjonclark.com/"),
+    (59, "Jordan Jefferson", "DogeOS", "https://www.linkedin.com/in/jordan-jefferson-ca/", "https://x.com/MyDogeCEO", "", "CEO & Founder DogeOS/MyDoge"),
+    (60, "Jordi Baylina", "ZisK", "https://ch.linkedin.com/in/jbaylina", "https://x.com/jbaylina", "", "Polygon co-founder; ZisK spin-off"),
+    (61, "Joshua Foster", "QuickNode", "https://www.linkedin.com/in/joshua-foster-62270350/", "", "", "Platform Lead Software Engineer"),
+    (62, "Julian Grigo", "Safe", "https://www.linkedin.com/in/juliangrigo/", "https://x.com/JulianGrigo", "", "Head of Institutions & Fintech"),
+    (63, "Justin Sun", "Tron", "https://www.linkedin.com/in/justinsuntron", "https://x.com/justinsuntron", "", "Telegram: https://t.me/hejustinsuntron"),
+    (64, "Karl Floersch", "Optimism", "https://www.linkedin.com/in/karlfloersch", "https://x.com/karl_dot_tech", "", "Site: https://karl.tech"),
+    (65, "Ken Smith", "NextBlock Solutions", "", "https://x.com/nextblock_eth", "", "Co-Founder; site: https://nextblock.solutions/"),
+    (66, "Kevin Weaver", "Optimism", "https://www.linkedin.com/in/kevinweaver2/", "", "", "OP Labs"),
+    (67, "Kirk Baird", "Sigma Prime", "https://www.linkedin.com/in/kirk-baird-1b734510a/", "https://x.com/kirkthebaird", "", "Security Assessments Manager; GitHub: kirk-baird"),
+    (68, "Kite Liu", "Uniswap Labs", "https://www.linkedin.com/in/kiteliudingyue/", "https://x.com/kiteliudingyue", "", "Research Scientist; site: https://www.kiteliudingyue.com/"),
+    (69, "Kubi Mensah", "Gattaca", "https://www.linkedin.com/in/kubimensah/", "https://x.com/kubimensah", "", "Co-Founder & CEO; Y Combinator alumni"),
+    (70, "Lamboshi (Nolan)", "EthStaker", "", "https://x.com/l_nakaghini", "", "Co-founder EthStaker; GitHub: LamboshiNakaghini"),
+    (71, "Laszlo Szabo", "Kiln", "https://fr.linkedin.com/in/laszlo-szabo-", "https://x.com/laszlo__szabo", "", "CEO & Co-Founder of Kiln"),
+    (72, "Laurence Day", "Wildcat Protocol", "https://uk.linkedin.com/in/laurenceday", "https://x.com/functi0nZer0", "", "Co-Founder & CEO; PhD; site: https://laurence.day/"),
+    (73, "Leo (Dr. Leonardo Bautista-Gomez)", "MigaLabs", "https://es.linkedin.com/in/leonardo-bautista-gomez-555b2587", "", "", "Founder MigaLabs; site: https://leobago.me"),
+    (74, "Lioba Heimbach", "ETH Zurich", "", "https://x.com/liobaheimbach", "", "Senior Researcher Category Labs; site: https://liobaheimbach.github.io/"),
+    (75, "Liz Steininger", "Least Authority", "https://www.linkedin.com/in/lizsteininger/", "https://x.com/liz315", "", "CEO/MD Least Authority TFA GmbH"),
+    (76, "Luca Winter", "Serenita", "https://www.linkedin.com/in/lucawinter/", "https://x.com/serenita_luca", "", "Founder & CTO; GitHub: eth2353"),
+    (77, "Luis Correia", "Flashbots", "", "", "", "No public profiles found"),
+    (78, "Marc Stenger", "Société Générale-Forge", "https://www.linkedin.com/in/jean-marc-stenger-89115040", "", "", "Same as Jean-Marc Stenger (#53)"),
+    (79, "Mariia Keiko", "CoW DAO", "", "", "", "No public profiles found"),
+    (80, "Mario Baxter Cabrera", "Aave", "https://www.linkedin.com/in/mariobaxter/", "https://x.com/0xMari0", "", "VP/Director of Product Aave Labs; Stanford CS"),
+    (81, "Martin de Rijke", "Maple Finance", "https://www.linkedin.com/in/martin-de-rijke-22b4a3129/", "https://x.com/Fundonomics", "", "Head of Growth at Maple Finance"),
+    (82, "Massimo Cervesato", "Mastercard", "https://www.linkedin.com/in/massimo-cervesato-30448659/", "https://x.com/MassCervesato", "", "Global VP Blockchain & Digital Assets"),
+    (83, "MB Richardson", "Bancor Protocol", "https://au.linkedin.com/in/mrichardson87", "https://x.com/MBRichardson87", "", "Head of Research / Project Lead at Bancor & Carbon DeFi"),
+    (84, "Meinhard Benn", "SatoshiPay", "https://www.linkedin.com/in/meinhard/", "https://x.com/meinharrd", "", ""),
+    (85, "Merlin Egalite", "Morpho", "https://www.linkedin.com/in/merlin-egalite/", "https://x.com/MerlinEgalite", "", "Co-Founder; GitHub: MerlinEgalite"),
+    (86, "Mooly Sagiv", "Certora", "https://www.linkedin.com/in/mooly-sagiv-87a36010/", "https://x.com/SagivMooly", "", "Chief Scientist; Professor at Tel Aviv University"),
+    (87, "Murat Ögat", "Aktionariat", "https://ch.linkedin.com/in/muratogat", "https://x.com/murat_ogat", "", "CEO & Co-Founder"),
+    (88, "Nahim Terrazas", "Across Protocol", "https://www.linkedin.com/in/nahim-terrazas-parada-3b4b14139", "", "", "GitHub: nahimdhaney"),
+    (89, "Nisedo", "Trail of Bits", "", "https://x.com/nisedo_", "", "Blockchain Security Engineer; GitHub: nisedo"),
+    (90, "Norbert Vadas", "Zenith", "https://hu.linkedin.com/in/norbert-vadas-1b32b9242", "https://x.com/NorbertVadas", "", "Head of Product at ZkCloud/Gevulot Labs"),
+    (91, "Olivier Desenfans", "Aleph Cloud", "https://www.linkedin.com/in/odesenfans/", "https://x.com/ODesenfans", "", "GitHub: odesenfans"),
+    (92, "Ophelia Snyder", "21Shares", "https://www.linkedin.com/in/opheliasnyder", "https://x.com/OpheliaBSnyder", "", "Note: departed 21Shares"),
+    (93, "Oskarth (Oskar Thoren)", "Waku / Status", "https://www.linkedin.com/in/oskar-thoren-6200771a6/", "https://x.com/oskarth", "", "Head of Engineering Vac; site: https://oskarth.com/"),
+    (94, "Pablo Veyrat", "Angle Protocol", "https://fr.linkedin.com/in/pablo-veyrat-5a6a84130", "https://x.com/pablo_veyrat", "", "Co-Founder Angle Protocol"),
+    (95, "Patricio Worthalter", "POAP", "https://www.linkedin.com/in/worthalter/", "https://x.com/worthalter", "", "Founder POAP; angel investor"),
+    (96, "Paul Schoenfelder", "Miden (Polygon)", "https://www.linkedin.com/in/gotbones", "https://x.com/gotbones", "", "Note: connection to Miden unconfirmed; GitHub: bitwalker"),
+    (97, "Pedro Gomes", "WalletConnect", "https://www.linkedin.com/in/pedrouid", "https://x.com/pedrouid", "", "Founder & CEO Reown (formerly WalletConnect)"),
+    (98, "Pol Lanski", "Peaq", "https://www.linkedin.com/in/pol-lanski-8a21a7333/", "https://x.com/Pol_Lanski", "", "Note: now CEO of Dappnode"),
+    (99, "Prabal Banerjee", "Avail", "https://www.linkedin.com/in/prabal-banerjee/", "https://x.com/prabalbanerjee", "", "Co-Founder Avail"),
+    (100, "Qi Zhou", "EthStorage", "https://www.linkedin.com/in/qi-zhou-9a668715/", "https://x.com/qc_qizhou", "", "Founder EthStorage & QuarkChain"),
+    (101, "Rebecca Liao", "Saga", "https://www.linkedin.com/in/rebecca-liao/", "https://x.com/beccaliao", "", "Co-Founder & CEO; site: https://rebeccaliao.com/"),
+    (102, "Reid Simon", "Figure Technology", "https://www.linkedin.com/in/reidasimon/", "", "", "President, Digital Assets at Figure"),
+    (103, "Richard Meissner", "Safe", "https://www.linkedin.com/in/richard-meissner/", "https://x.com/rimeissner", "", "Co-Founder & CTO Safe; GitHub: rmeissner"),
+    (104, "Sebastien Borget", "The Sandbox", "https://www.linkedin.com/in/borgetsebastien", "https://x.com/borgetsebastien", "", ""),
+    (105, "Seth For Privacy (Seth Simmons)", "Monero / FOSS", "", "https://x.com/sethforprivacy", "", "Site: https://sethforprivacy.com/; GitHub: sethforprivacy"),
+    (106, "Simo (Simone Conti)", "Aave", "https://www.linkedin.com/in/simoneconti1992/", "https://x.com/simoneconti_", "", "Growth & Adoption at Aave Labs"),
+    (107, "Skeletor Spaceman", "Wonderland", "", "https://x.com/Skeletor_Space", "", "Co-Founder Wonderland/defi.sucks; GitHub: skeletor-spaceman"),
+    (108, "Soufia Trabelsi", "Mellow", "https://www.linkedin.com/in/soufia-trabelsi-884728100/", "https://x.com/Cyborgxsoufia", "", "Head of Partnerships"),
+    (109, "Stani Kulechov", "Aave Labs", "https://www.linkedin.com/in/stani-kulechov", "https://x.com/StaniKulechov", "", ""),
+    (110, "Stanislas de Maistre", "Belem Capital", "https://www.linkedin.com/in/standemaistre/", "", "", "General Partner; also Advisor at MEV Capital"),
+    (111, "Stefan Kobrc", "Rocklogic GmbH", "https://www.linkedin.com/in/stefan-kobrc-6a532091/", "", "stefan.kobrc@rocklogic.at", "MD & Founder RockLogic; also Stereum Services"),
+    (112, "Steffen Kux", "Colibri", "https://www.linkedin.com/in/steffen-kux/", "https://x.com/SteffenKux", "", "Co-founder corpus.core; ENS: stkux.eth"),
+    (113, "Stéphane Tetsing", "Remix IDE", "", "", "", "AI expert on Remix team; no public profiles found"),
+    (114, "Suji Yan", "Mask Network", "https://jp.linkedin.com/in/tedkoyan", "https://x.com/suji_yan", "", "Founder & CEO Mask Network / Dimension"),
+    (115, "Terence Tsao", "Offchain Labs", "https://www.linkedin.com/in/terence-tsao-760b4513b/", "https://x.com/terencechain", "", "Site: https://www.terencetsao.com/"),
+    (116, "Tom Trowbridge", "Peaq", "https://www.linkedin.com/in/tom-trowbridge-12623/", "https://x.com/TheTomTrow", "", "Note: actually co-founder Fluence Labs; hosts DePINed podcast"),
+    (117, "Tomasz Stanczak", "Nethermind", "https://www.linkedin.com/in/tomaszkajetanstanczak", "https://x.com/tkstanczak", "", "Also Co-Executive Director at Ethereum Foundation"),
+    (118, "Tomer Ganor", "Aave Labs", "https://www.linkedin.com/in/tomer-ganor/", "https://x.com/tomer_ganor", "", "Security Engineering & Research Tech Lead at Certora"),
+    (119, "Trillion Dollar Security", "1TS", "", "", "", "EF initiative, not a person; co-chaired by Fredrik Svantes & Josh Stark"),
+    (120, "Val Gui", "Kiln", "https://www.linkedin.com/in/valentingui/", "https://x.com/valgui1", "", "Note: LinkedIn shows Kraken, possibly formerly Kiln"),
+    (121, "Wei3erhase", "HAI Finance", "", "https://x.com/wei3erHase", "", "Technical Lead at DeFi Wonderland; GitHub: wei3erHase"),
+    (122, "Wesley Crook", "FP Block", "https://www.linkedin.com/in/wesleycrook/", "https://x.com/wesleyincrypto", "", "CEO at FP Block"),
+    (123, "Will Papper", "Syndicate", "https://www.linkedin.com/in/wpapper/", "https://x.com/WillPapper", "", "Co-Founder Syndicate"),
+    (124, "Yaniv Tal", "The Graph", "https://www.linkedin.com/in/yanivtal9", "https://x.com/yanivgraph", "", "Also CEO Edge & Node / Geo Protocol"),
+    (125, "Yi Sun", "OpenVM / Axiom", "https://www.linkedin.com/in/yisun0/", "https://x.com/theyisun", "", "Co-Founder Axiom; PhD MIT Mathematics"),
+    (126, "Zac Williamson", "Aztec", "https://www.linkedin.com/in/zachary-williamson-b02b0192", "https://x.com/Zac_Aztec", "", ""),
+    (127, "Zach Pandl", "Grayscale", "", "https://x.com/LowBeta_", "", "Head of Research; formerly Goldman Sachs"),
+]
+
+# Write CSV
+csv_path = "/home/user/testcoldoutreach/ethcc9_contacts.csv"
+with open(csv_path, "w", newline="", encoding="utf-8") as f:
+    writer = csv.writer(f)
+    writer.writerow(["#", "Speaker", "Company", "Conference", "Location", "Date", "LinkedIn", "Twitter/X", "Email", "Other"])
+    for row in contacts:
+        num, name, company, linkedin, twitter, email, other = row
+        writer.writerow([
+            num, name, company,
+            "EthCC[9]",
+            "Palais des Festivals, Cannes, France",
+            "March 30 - April 2, 2026",
+            linkedin, twitter, email, other
+        ])
+
+print(f"Written {len(contacts)} contacts to {csv_path}")
+
+# Also copy to Downloads
+import shutil
+downloads_path = "/home/user/Downloads/ethcc9_contacts.csv"
+shutil.copy2(csv_path, downloads_path)
+print(f"Copied to {downloads_path}")
+
+# Print stats
+has_linkedin = sum(1 for c in contacts if c[3])
+has_twitter = sum(1 for c in contacts if c[4])
+has_email = sum(1 for c in contacts if c[5])
+print(f"\nStats:")
+print(f"  Total contacts: {len(contacts)}")
+print(f"  LinkedIn found: {has_linkedin} ({has_linkedin*100//len(contacts)}%)")
+print(f"  Twitter/X found: {has_twitter} ({has_twitter*100//len(contacts)}%)")
+print(f"  Email found: {has_email}")
+print(f"  At least one contact method: {sum(1 for c in contacts if c[3] or c[4] or c[5])}")
