@@ -84,7 +84,7 @@ async def transcribe_voice(client, message) -> str:
             os.remove(tmp_path)
 
 
-async def process_message(client, msg) -> dict | None:
+async def process_message(client, msg):
     if not msg.text and not msg.media:
         return None
 
