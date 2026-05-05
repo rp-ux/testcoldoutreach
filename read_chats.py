@@ -30,10 +30,9 @@ try:
     whisper_model = whisper.load_model("base")
     WHISPER_AVAILABLE = True
     print("Whisper loaded.")
-except ImportError:
+except Exception:
     WHISPER_AVAILABLE = False
-    print("Whisper not installed. Voice messages will be skipped.")
-    print("Install: pip3 install openai-whisper")
+    print("Whisper unavailable. Voice messages will be skipped.")
 
 
 def read_file(path: str, filename: str) -> str:
