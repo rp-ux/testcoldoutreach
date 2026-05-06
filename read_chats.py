@@ -22,7 +22,8 @@ SESSION = os.environ.get("SESSION_NAME", "ruslan_bsag")
 
 CHATS_TO_READ = ["iTor_0x", "Ivan_ICODA", "avicoda"]
 KEYWORDS = ["kaching", "качинг", "kach"]
-MESSAGES_LIMIT = 100
+KEYWORDS_KOLS = ["kols internal", "kol internal", "kols icoda", "kol icoda", "колс", "internal icoda"]
+MESSAGES_LIMIT = 200
 
 # Whisper для транскрипции голосовых
 try:
@@ -141,11 +142,11 @@ async def get_chat_messages(client, chat_id, limit=100):
     return messages
 
 
-async def find_kaching_dialog(client):
-    print("Ищу чат Kaching <> ICODA...")
+async def find_dialog_by_keywords(client, keywords, label):
+    print(f"Ищу чат {label}...")
     async for dialog in client.iter_dialogs():
         name = dialog.name or ""
-        if any(k in name.lower() for k in KEYWORDS):
+        if any(k in name.lower() for k in keywords):
             print(f"  Найден: {name}")
             messages = []
             async for msg in client.iter_messages(dialog.entity, limit=MESSAGES_LIMIT):
@@ -154,6 +155,10 @@ async def find_kaching_dialog(client):
                     messages.append(item)
             return name, messages
     return None, []
+
+
+async def find_kaching_dialog(client):
+    return await find_dialog_by_keywords(client, KEYWORDS, "Kaching <> ICODA")
 
 
 async def main():
@@ -168,6 +173,13 @@ async def main():
         print(f"  Загружено {len(messages)} сообщений")
     else:
         print("  Чат Kaching не найден")
+
+    name2, messages2 = await find_dialog_by_keywords(client, KEYWORDS_KOLS, "KOLs Internal ICODA")
+    if messages2:
+        all_data[name2] = messages2
+        print(f"  Загружено {len(messages2)} сообщений")
+    else:
+        print("  Чат KOLs Internal ICODA не найден")
 
     for username in CHATS_TO_READ:
         print(f"Читаю @{username}...")
