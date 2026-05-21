@@ -1,5 +1,5 @@
 # ICODA × Knoah — Package Comparison
-### Global Launch Sprint · 60-Day Window · June–August 2026
+### Global Launch Sprint · 60-Day Window · June—August 2026
 
 ---
 
@@ -25,9 +25,9 @@
 |  | **PILOT** | **GROWTH** | **FULL SCALE** |
 |---|:---:|:---:|:---:|
 | Tier | Mid-tier | Tier 2 + Tier 3 mix | Top-tier incl. Tier 1 |
-| Followers range | 50K – 200K | 50K – 500K | 200K – 1M |
-| KOLs per market | 4–6 | 6–10 | 10–12 |
-| Total KOLs (all markets) | 8–12 | 24–40 | 40–48 |
+| Followers range | 50K — 200K | 50K — 500K | 200K — 1M |
+| KOLs per market | 4—6 | 6—10 | 10—12 |
+| Total KOLs (all markets) | 8—12 | 24—40 | 40—48 |
 | Combined audience reach | 500K+ | 2M+ | 5M+ |
 | Launch coordination | Rolling | Rolling | Synchronized blast |
 
@@ -53,7 +53,7 @@
 
 |  | **PILOT** | **GROWTH** | **FULL SCALE** |
 |---|:---:|:---:|:---:|
-| Ad spend (client-managed) | — | $2K–3K / market | $5K–8K / market |
+| Ad spend (client-managed) | — | $2K—3K / market | $5K—8K / market |
 | Platforms | — | Meta + Google | Meta + Google + X |
 | Campaign setup & optimization | — | ✓ | ✓ premium |
 | Competitive intelligence | — | — | Real-time monitoring |
@@ -79,11 +79,11 @@
 
 |  | **PILOT** | **GROWTH** | **FULL SCALE** |
 |---|:---:|:---:|:---:|
-| **New registered users** | 1K – 3K | 8K – 20K | 30K – 60K |
-| Community members | 2K – 5K | 10K+ | 25K+ |
+| **New registered users** | 1K — 3K | 8K — 20K | 30K — 60K |
+| Community members | 2K — 5K | 10K+ | 25K+ |
 | Media placements | 4 | 12+ | 25+ |
 | KOL impressions | 500K+ | 2M+ | 5M+ |
-| **Est. cost per user (service fee)** | $16–48 | $4.4–11 | $3–6 |
+| **Est. cost per user (service fee)** | $16—48 | $4.4—11 | $3—6 |
 
 ---
 
@@ -130,7 +130,7 @@ Week 2  ·  KOL posts live · Telegram seeding · paid campaigns activated (Grow
 Week 3  ·  Wave 1 live (RU + TR) · first attribution data · Wave 2 prep begins
 Week 4  ·  Creative re-tuned for BR + VN using Week 3 data
 Week 5  ·  Wave 2 live (BR + VN) · all four markets active
-Weeks 6–8  ·  Investment-announcement amplification blast (Growth: coordinated · Full Scale: 20+ outlets)
+Weeks 6—8  ·  Investment-announcement amplification blast (Growth: coordinated · Full Scale: 20+ outlets)
 End of Month 2  ·  Full performance report + Month 3 optimization plan
 ```
 
